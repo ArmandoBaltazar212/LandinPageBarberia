@@ -1,0 +1,140 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+/* ******************************************************
+    CSS Agregado por Armando Baltazar Valle 
+   ****************************************************** */
+
+
+div#imgFondoBanner {
+    height: 600px;
+    background-image: url('/img/BannerFondo.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: #000000;
+}
+
+.fichadeposito {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+div#imgFondoFicha {
+    background-image: url('/img/FichaDeposito.png');
+    background-repeat: no-repeat;
+    background-color: #000000;
+    background-size: cover;
+    height: 750px;
+}
+
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+}
+
+@media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+    }
+}
+
+.fa-whatsapp {
+    color: #fff;
+    background: linear-gradient(#25d366,#25d366) 14% 84%/16% 16% no-repeat, radial-gradient(#25d366 58%,transparent 0);
+}
+
+
+@font-face {
+    font-family: 'carnevalee freakshow';
+    src: url('/font/carnevalee freakshow.ttf') format('truetype');
+}
+
+.titulo-barbero {
+    font-family: 'carnevalee freakshow', 'Times New Roman', Times, serif;
+    font-size: 4em;
+    color: #47180E;
+}
+
+h1.txt-barbero-1 {
+    font-family: 'carnevalee freakshow', 'Times New Roman', Times, serif;
+    font-size: 5rem;
+    color: #FFFFFF;
+    margin: 0;
+}
+
+h2.txt-barbero-2 {
+    font-family: 'carnevalee freakshow', 'Times New Roman', Times, serif;
+    font-size: 3.3em;
+    color: #FFFFFF;
+    margin: 0;
+}
+
+.texto-barbero-1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2em;
+    color: #47180E;
+    font-weight: bold;
+}
+
+.texto-barbero-2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.8em;
+    color: #47180E;
+    font-weight: bold;
+}
+
+.texto-barbero-3 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5em;
+    color: #47180E;
+    font-weight: bold;
+}
+
+.texto-barbero-4 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.4em;
+    color: #47180E;
+    font-weight: bold;
+}
+
+.texto-parrafo {
+    font-family: Calibri;
+    font-size: 1.7em;
+}
+
+.texto-titulo {
+    font-family: Calibri;
+    font-size: 3em;
+}
+
+
+.container-fluid {
+    padding-right: 0 !important;
+    padding-left: 0 !important
+}
